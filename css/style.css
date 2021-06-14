@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #F3F5FB;
+}
+
+img {
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: #1E1D6C;
+  width: 450px;
+  height: 654px;
+  border-radius: 20px;
+  padding: 40px;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+.calculator_line {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.output {
+  width: 370px;
+  height: 160px;
+  background: #27267C;
+  border-radius: 10px;
+  margin-bottom: 29px;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  width: 65px;
+  height: 65px;
+  background: #27267C;
+  border-radius: 10px;
+  border: none;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 62px;
+  font-family: "Quicksand", sans-serif;
+  color: #FFFFFF;
+}
+.btn:focus {
+  color: #F53380;
+  background: #434292;
+  outline: none;
+}
+
+.c {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pink {
+  color: #FF9CBA;
+}
+
+.aqua {
+  color: #47FFDB;
+}
+
+.hotpink {
+  color: #F53380;
+}
+
+.blue {
+  color: #75F5FF;
+}
+
+.yellow {
+  color: #FBFF39;
+}
+
+.purple {
+  color: #C08EFF;
+}
+
+/*# sourceMappingURL=style.css.map */
